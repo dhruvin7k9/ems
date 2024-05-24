@@ -16,6 +16,7 @@
 	<properties>
 		<java.version>17</java.version>
 	</properties>
+	<packaging>war</packaging>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -49,10 +50,12 @@
 		<dependency>
 			<groupId>jakarta.servlet.jsp.jstl</groupId>
 			<artifactId>jakarta.servlet.jsp.jstl-api</artifactId>
+			
 		</dependency>
 		<dependency>
-        	<groupId>org.eclipse.jetty</groupId>
-        	<artifactId>glassfish-jstl</artifactId>
+			<groupId>org.glassfish.web</groupId>
+  			<artifactId>jakarta.servlet.jsp.jstl</artifactId>
+  			
     	</dependency>
 	</dependencies>
 
@@ -62,6 +65,8 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+			
+			
 		</plugins>
 		<finalName>spring-ems</finalName>
 	</build>
