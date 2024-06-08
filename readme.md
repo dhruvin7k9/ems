@@ -1,4 +1,4 @@
-# Event Management System developed using Java Spring framework
+# EventEase : Event Management System developed using Java Spring framework
 
 ## The project is deployed <a href='https://ems-spring-boot.onrender.com'>here</a>.
 
