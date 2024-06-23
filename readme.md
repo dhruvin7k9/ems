@@ -1,7 +1,7 @@
 # EventEase : Event Management System developed using Java Spring framework
 
 ## The project is deployed <a href='https://ems-spring-boot.onrender.com'>here</a>.
-
+#### Tech stack : Spring Boot, Hibernate, MySQL, Docker
 
 ## To run project directly (using Docker) :-
 
